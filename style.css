@@ -1,0 +1,390 @@
+  @font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('fonts/BebasNeue Bold.otf');
+    font-weight: normal;font-style: normal}*{vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    list-style-type:  none;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    i {
+      font-style: italic;
+    }
+
+    code {
+      letter-spacing: 5px;
+      color: gray;
+    }
+
+    a {
+      color: #ea2248;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .clear {
+      clear:  both;
+      height:  0;
+      overflow:  hidden;
+      position:  relative;
+      zoom:  1;
+    }
+
+    html {
+      height:  100%;
+    }
+
+    body {
+      font:  20px/32px 'Conv_Gotham-Book', Arial, Helvetica, sans-serif;
+      height:  100%;
+      color:  #fff;
+      background:  #000;
+      min-width:  980px;
+      position:  relative;
+      min-height:  700px;
+    }
+
+    .wrapCont {
+      min-height:  100%;
+      position:  relative;
+      *zoom:  1;
+    }
+
+    .head {
+      position:  absolute;
+      z-index:  2;
+      left:  0;
+      top:  0;
+      width:  100%;
+      display:  none;
+    }
+
+    .headCont {
+      min-width:  980px;
+      max-width:  auto;
+      position:  relative;
+      z-index:  2;
+      margin:  0 auto;
+      height:  140px;
+      background: rgba(0, 0, 0, 0.5);;
+    }
+
+    header .logo a {
+      text-indent:  -500px;
+      float:  left;
+      width:  190px;
+      height: 30px;
+      padding:  40px 0 0 152px;
+      margin-top: 30px;
+      margin-left: 50px;
+      background:  url(images/logo.png) center 0 no-repeat;
+    }
+
+    header .logo a:hover {
+      background: url(images/logo_h.png) center 0 no-repeat;
+    }
+
+    header .social {
+
+      float:  right;
+      width:  auto;
+      padding:  54px 186px 0 0;
+    }
+
+    header .social li {
+      float:  left;
+      width:  auto;
+      padding:  0 0 0 42px;
+    }
+
+    header .social li a {
+      display:  block;
+      width:  26px;
+      height:  24px;
+      overflow:  hidden;
+      position:  relative;
+      text-indent:  -500px;
+      *zoom:  1;
+      }
+
+    header .social li a.fb {
+      background:  url(images/fb.png) center 0 no-repeat;
+    }
+
+    header .social li a.tw {
+      background:  url(images/tw.png) center 2px no-repeat;
+    }
+
+    header .social li a.bh {
+      background:  url(images/vk.png) center 4px no-repeat;
+    }
+
+    header .social li a.fb:hover {
+      background: url(images/fb_h.png) center 0 no-repeat;
+    }
+
+    header .social li a.tw:hover {
+      background: url(images/tw_h.png) center 2px no-repeat;
+    }
+
+    header .social li a.bh:hover {
+      background: url(images/vk_h.png) center 4px no-repeat;
+    }
+
+    .content {
+      position:  absolute;
+      width:  100%;
+      height:  493px;
+      top:  50%;
+      margin:  -246px 0 0;
+      z-index:  2;
+    }
+
+    .contentIn {
+      position: relative;
+      overflow: hidden;
+      *zoom: 1;
+      min-width: 980px;
+      max-width: 1440px;margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 300px){.eyeShow {
+      width: 410px;
+      height: 420px;
+      position: relative;
+      top: 76px;
+      margin: 0 auto;
+      background: url(images/2.gif) no-repeat;
+      cursor: pointer;
+      overflow: hidden;
+      text-indent: -500px;
+      *zoom: 5;
+      display: none;
+      z-index: 5;}
+    }
+
+    .eyeShow {
+      width: 410px;
+      height: 420px;
+      position: relative;
+      top: 76px;
+      margin: 0 auto;
+      background: url(images/2.gif) no-repeat;
+      cursor: pointer;
+      overflow: hidden;
+      text-indent: -500px;
+      *zoom: 5;
+      display: none;z-index: 5;
+    }
+
+    .eyeShow:hover {
+      background: url(images/2.gif) no-repeat;
+    }
+
+    .eyeHide {background: url(images/eye.png) no-repeat;
+      width: 32px;
+      height: 20px;
+      cursor: pointer;
+      margin: 0 auto 45px;
+      overflow: hidden;
+      position: relative;
+      text-indent: -500px;*zoom: 1;
+    }
+
+    .eyeHide:hover {
+      background: url(images/eye_h.png) no-repeat;
+    }
+
+    .text {
+          text-align: center;
+          padding: 0 0 67px;
+          text-transform: uppercase;
+          display: none;
+          width: 940px;
+          margin: 0 auto;
+    }
+
+    .text h1 {
+          letter-spacing: 15px;
+          padding-bottom: 25px;
+          font: 97px/110px 'true_liesregular',Arial,Helvetica,sans-serif;
+          white-space: nowrap;
+    }
+
+    .text .reload {
+          background: url(images/update.png) no-repeat;
+          width: 26px;
+          height: 26px;
+          margin: 0 auto;
+          cursor: pointer;
+          overflow: hidden;
+          position: relative;
+          text-indent: -500px;
+          display: block;
+          *zoom: 1;
+    }
+
+    .text .reload:hover {
+          background: url(images/update_h.png) no-repeat;
+    }
+
+    .info {
+          font-family: 'Roboto Condensed', sans-serif;
+          text-align: center;
+          /*text-transform: uppercase;*/
+          letter-spacing: 1px;
+          display: none;
+    }
+
+    .info h1 {
+          font-size: 24px;
+          margin-top: 0px;
+          text-transform: uppercase;
+    }
+
+    .info h2 {
+          font-size: 18px;
+          margin-top: 20px;
+    }
+
+    .info p {
+          font-size: 18px;
+          margin: 30px 0 0 3px;
+    }
+
+    .portfolio {
+        margin: 40px auto;
+    }
+
+    .portfolio .port {
+          display: inline-block;
+          width: 420px;
+          height: 270px;
+          margin: 10px;
+    }
+
+    .portfolio .port img {
+          width: 420px;
+          height: 270px;
+          border-radius: 5px;
+          box-shadow: 2px 2px 5px #999999;
+    }
+
+    .portfolio .port img:hover {
+          transform: scale(1.025);
+          box-shadow: 2px 2px 15px #EA2248;
+    }
+
+    @media only screen and (max-width: 300px){.info {
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          display: none}.info p {
+          padding: 0 0 27px}
+    }
+
+    footer {
+          text-align: center;
+          z-index: 2;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;display: none;
+    }
+
+    .contacts {
+          font-size: 16px;
+    }
+
+    .contactsOpen {
+          position: relative;
+          bottom: 70px;
+    }
+
+    .contactsOpen span {
+          background: url(images/link.png) 0 100% repeat-x;
+          text-transform: uppercase;
+          font-size: 18px;
+          letter-spacing: 2px;
+          cursor: pointer;
+          color: #ea2248;
+          font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .contactsOpen span:hover {
+          background: 0;
+          color: #fff;
+    }
+
+    .contactsCont {
+          background: #000;
+          letter-spacing: 1px;
+          position: absolute;
+          width: 100%;left: 0;
+          bottom: 0;
+          display: none;
+    }
+
+    .contactsCont span:hover {
+          color: #ea2248;
+    }
+
+    .contactsCont .contactsClose {
+          background: url(images/close.png) no-repeat;
+          width: 20px;
+          height: 20px;
+          margin: 0 auto 49px;
+          overflow: hidden;
+          position: relative;
+          text-indent: -500px;
+          cursor: pointer;
+          top: 25px;
+    }
+
+    .contactsCont .contactsClose:hover {
+          background: url(images/close_h.png) no-repeat;
+    }
+
+    .contactsCont h3 {
+          text-transform: uppercase;
+          color: #999;
+          padding: 0 0 17px;
+    }
+
+    .contactsCont a {
+          color: #fff;
+    }
+
+    .contactsCont ul {
+          line-height: 22px;
+          padding-bottom: 80px;
+    }
+
+    .contactsCont ul li a:hover {
+          color: #EA2248;
+    }
+
+    #full {
+          height: 100%;width: 100%;overflow: hidden;
+          z-index: 1;
+          position: fixed;
+          top: 0;
+          left: 0;
+    }
+
+    #full img {
+          display:  none;
+    }
