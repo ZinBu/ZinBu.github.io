@@ -160,63 +160,7 @@
       min-width: 980px;
       max-width: 1440px;margin: 0 auto;
     }
-
-    @media only screen and (max-width: 300px){.eyeShow {
-      width: 410px;
-      height: 420px;
-      position: relative;
-      top: 76px;
-      margin: 0 auto;
-      background: url(images/2.gif) no-repeat;
-      cursor: pointer;
-      overflow: hidden;
-      text-indent: -500px;
-      *zoom: 5;
-      display: none;
-      z-index: 5;}
-    }
-
-    .eyeShow {
-      width: 410px;
-      height: 420px;
-      position: relative;
-      top: 76px;
-      margin: 0 auto;
-      background: url(images/2.gif) no-repeat;
-      cursor: pointer;
-      overflow: hidden;
-      text-indent: -500px;
-      *zoom: 5;
-      display: none;z-index: 5;
-    }
-
-    .eyeShow:hover {
-      background: url(images/2.gif) no-repeat;
-    }
-
-    .eyeHide {background: url(images/eye.png) no-repeat;
-      width: 32px;
-      height: 20px;
-      cursor: pointer;
-      margin: 0 auto 45px;
-      overflow: hidden;
-      position: relative;
-      text-indent: -500px;*zoom: 1;
-    }
-
-    .eyeHide:hover {
-      background: url(images/eye_h.png) no-repeat;
-    }
-
-    .text {
-          text-align: center;
-          padding: 0 0 67px;
-          text-transform: uppercase;
-          display: none;
-          width: 940px;
-          margin: 0 auto;
-    }
-
+    
     .text h1 {
           letter-spacing: 15px;
           padding-bottom: 25px;
