@@ -21,11 +21,6 @@
       font-style: italic;
     }
 
-    code {
-      letter-spacing: 5px;
-      color: gray;
-    }
-
     a {
       color: #ea2248;
       text-decoration: none;
@@ -49,7 +44,7 @@
 
     body {
       font:  20px/32px 'Conv_Gotham-Book', Arial, Helvetica, sans-serif;
-      height:  100%;
+      /*height:  100%;*/
       color:  #fff;
       background:  #000;
       min-width:  980px;
@@ -64,7 +59,7 @@
     }
 
     .head {
-      position:  absolute;
+      position:  relative;
       z-index:  2;
       left:  0;
       top:  0;
@@ -145,20 +140,22 @@
     }
 
     .content {
-      position:  absolute;
-      width:  100%;
-      height:  493px;
-      top:  50%;
-      margin:  -246px 0 0;
-      z-index:  2;
+            position:  relative;
+            width:  100%;
+            /*top:  50%;*/
+            /*margin:  -246px 0 0;*/
+            margin-top: 50px;
+            z-index:  2;
     }
 
     .contentIn {
-      position: relative;
-      overflow: hidden;
-      *zoom: 1;
-      min-width: 980px;
-      max-width: 1440px;margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            *zoom: 1;
+            min-width: 980px;
+            max-width: 1440px;
+            margin: 0 auto;
+      
     }
     
     .text h1 {
@@ -188,7 +185,6 @@
     .info {
           font-family: 'Roboto Condensed', sans-serif;
           text-align: center;
-          /*text-transform: uppercase;*/
           letter-spacing: 1px;
           display: none;
     }
@@ -224,7 +220,7 @@
           width: 420px;
           height: 270px;
           border-radius: 5px;
-          box-shadow: 2px 2px 5px #999999;
+          box-shadow: 1px 1px 5px #999999;
     }
 
     .portfolio .port img:hover {
@@ -243,20 +239,24 @@
     footer {
           text-align: center;
           z-index: 2;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;display: none;
+          position: relative;
+          /*bottom: 0;
+          left: 0;*/
+          width: 100%;
+          display: none;
+          margin-top: 30px;
+          margin-bottom: 10px;
+
     }
 
     .contacts {
           font-size: 16px;
     }
 
-    .contactsOpen {
+    /*.contactsOpen {
           position: relative;
           bottom: 70px;
-    }
+    }*/
 
     .contactsOpen span {
           background: url(images/link.png) 0 100% repeat-x;
@@ -277,8 +277,9 @@
           background: #000;
           letter-spacing: 1px;
           position: absolute;
-          width: 100%;left: 0;
-          bottom: 0;
+          width: 100%;
+          left: 0;
+          bottom: -182px;
           display: none;
     }
 
@@ -322,13 +323,11 @@
     }
 
     #full {
-          height: 100%;width: 100%;overflow: hidden;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
           z-index: 1;
           position: fixed;
           top: 0;
           left: 0;
-    }
-
-    #full img {
-          display:  none;
     }
